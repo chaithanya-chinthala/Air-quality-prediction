@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 
 app = Flask(__name__)
 
-API_KEY = "934b67a8ab09d6e5cc07a36f29395c93"  # Replace with your actual API key
+API_KEY = "Replace with your actual API key"  # Replace with your actual API key
 
 with open("models/rf_model.pkl", "rb") as rf_file:
     rf_model = joblib.load(rf_file)
